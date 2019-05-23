@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+}
+.logo {
+  margin-left: 20%;
+  margin-top: 44px;
+}
+.links {
+  margin-top: 40px;
+  width: 70%;
+}
+
+.links ul a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Arial MT";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 41px;
+}
+
+.links ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.header_wrapper {
+  background: url(../img/first-bg.jpg.png);
+  width: 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 120px;
+}
+.header_text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 15%;
+  justify-content: center;
+  align-items: center;
+}
+.header_text p:first-child {
+  color: #ffffff;
+  font-family: "Arial MT";
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.header_text p:nth-child(2) {
+  color: #ffffff;
+  font-family: "Arial - Bold MT";
+  font-size: 75px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -1.88px;
+  text-align: center;
+  margin-top: 51px;
+}
+.tell {
+  padding: 24px 53px;
+  color: #484543;
+  font-family: "Arial - Bold MT";
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: #fed136;
+  border: none;
+  border-radius: 2px;
+  margin-top: 59px;
+  width: 240px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 118px;
+}
+.services_offers {
+  display: flex;
+  justify-content: space-around;
+}
+.services_offers > div {
+  display: flex;
+  width: 240px;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.services_text p:first-child {
+  color: #222222;
+  font-family: "Arial - Bold MT";
+  font-size: 40px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  text-align: center;
+  margin-top: 100px;
+}
+.services_text p:last-child {
+  text-align: center;
+  color: #777777;
+  font-family: "Arial MT";
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 77px;
+}
+
+.services_offers > div img {
+  margin-bottom: 24px;
+}
+.description {
+  margin-top: 18px;
+  color: #777777;
+  font-family: "Arial MT";
+  font-size: 16px;
+  font-weight: 400;
+  /* Text style for "P, roin ia" */
+  letter-spacing: -0.35px;
+}
+.services_offers div p:first-child {
+  color: #222222;
+  font-family: "Arial - Bold MT";
+  font-size: 18px;
+  /* Text style for "R, esponsi" */
+  letter-spacing: -0.45px;
+}
+
+.portfolio_text p:first-child {
+  color: #222222;
+  font-family: "Arial - Bold MT";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 75px;
+  text-transform: uppercase;
+  /* Text style for "Our portfo" */
+  letter-spacing: -1px;
+  margin-top: 120px;
+  margin-bottom: 20px;
+}
+.portfolio_text p:last-child {
+  margin-bottom: 75px;
+  color: #777777;
+  font-family: "Arial MT";
+  font-size: 16px;
+  font-weight: 400;
+}
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio_images {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 134px;
+}
+
+.about_text p:first-child {
+  color: #222222;
+  font-family: "Arial - Bold MT";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 75px;
+  text-transform: uppercase;
+  /* Text style for "About Us" */
+  letter-spacing: -1px;
+  text-align: center;
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.about_text p:last-child {
+  color: #777777;
+  font-family: "Arial MT";
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.comments {
+  display: flex;
+  margin-bottom: 93px;
+}
+
+.comments p {
+  width: 285px;
+  color: #777777;
+  font-family: "Arial MT";
+  font-size: 18px;
+  font-weight: 400;
+  /* Text style for "P, roin ia" */
+  letter-spacing: -0.35px;
+  margin-left: 40px;
+}
+.comm_container div:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+.comm_container div:nth-child(odd) p {
+  margin-right: 40px;
+}
+
+.footer {
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+  background-color: #4286f4;
+  text-transform: uppercase;
+}
+span {
+  text-transform: capitalize;
+  font-size: 15px;
+  color: #f4c741;
+  float: right;
+}
+span p {
+  color: red;
+  display: inline-block;
+  font-size: 20px;
+}
